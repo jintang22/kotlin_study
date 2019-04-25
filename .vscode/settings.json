@@ -1,0 +1,22 @@
+{
+	"git.ignoreLimitWarning": true,
+
+	// Whether to clear previous output before each run.
+	"code-runner.clearPreviousOutput": true,
+
+	// Whether to use the directory of the file to be executed as the working directory.
+	"code-runner.fileDirectoryAsCwd": true,
+  
+  
+	// Whether to run code in Integrated Terminal.
+  	"code-runner.runInTerminal": true,
+  
+  	// Whether to save all files before running.
+	"code-runner.saveAllFilesBeforeRun": true,
+
+	"files.exclude": {
+
+		"*.jar": true,
+	}
+	
+}
