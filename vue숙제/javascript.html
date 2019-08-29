@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="javascript.js" ></script>
+		<script type="text/javascript">
+			function print(src) {
+				document.getElementById("print").innerHTML = src;
+			}
+		</script>
+	</head>
+	<body>
+		<input type="button" onclick="get('https://jsonplaceholder.typicode.com/posts', print)" value="get" />
+		<div> - output</div>
+		<div id="print"/>
+	</body>
+</html>
